@@ -15,6 +15,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { FeedPageModule } from '../pages/feed/feed.module';
 import { IntroPageModule } from '../pages/intro/intro.module';
 import { MoovieProvider } from '../providers/moovie/moovie';
+import { LoginPageModule } from '../pages/login/login.module';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { MoovieProvider } from '../providers/moovie/moovie';
     IonicModule.forRoot(MyApp),
     FeedPageModule,
     IntroPageModule,
+    LoginPageModule,
     HttpModule
 
   ],

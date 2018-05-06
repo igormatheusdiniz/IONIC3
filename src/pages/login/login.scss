@@ -1,0 +1,43 @@
+page-login {
+    .background{
+        width: 100%;
+        height: 100%;
+        background-image: url('../assets/imgs/background.png');
+    }
+    
+    
+    button.disable-hover.button.button-ios.button-default.button-default-ios.button-ios-danger {
+        width: 320px;
+    }
+    button.disable-hover.button.button-ios.button-default.button-default-ios.button-ios-primary {
+        width: 320px;
+    }
+
+    ion-card.card {
+        background-color: rgba(232, 230, 230, 0.4px);
+        border-radius: 10px;
+    }
+    .item {
+        background-color: rgba(232, 230, 230, 0.0px);
+        border-radius: 10px;
+    }
+
+    .item-inner{
+        display: inline-block;
+        width: 45%;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .scroll-content {
+        text-align: center;
+        
+    }
+
+    p.singup {
+        color: seashell;
+    }
+
+}
